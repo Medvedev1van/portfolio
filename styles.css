@@ -1,0 +1,235 @@
+.header{
+    position: relative;
+    margin: 0;
+    height: 765px;
+    background-image: url(img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.nav__img{
+    
+}
+.logo{
+    position: absolute;
+    top: 27px;
+    left: 132px;
+    width: 140px;
+    height: 40px;
+    border-radius: 100px;
+    border: 1px solid #121212;
+    background-color: #121212;
+    font-size: 42px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -0.11em;
+    color: #1BFF07;
+}
+.nav{
+    max-width: 1150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__img{
+
+}
+.nav__list{
+    display: flex;
+}
+.nav__item{
+    
+}
+.nav__link{
+    margin-right: 50px;
+}
+.nav__text{
+    position: absolute;
+    width: 430px;
+    height: 103px;
+    left: 125px;
+    top: 334px;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFFFFF; 
+}
+.nav__welcome{
+    position: absolute;
+    width: 951px;
+    height: 205px;
+    bottom: 94px;
+    left: 119px;
+    font-size: 80px;
+    line-height: 70px;
+    color: #1BFF07;
+}
+.projects__new{
+    margin: 150px 0 40px 0;
+    font-size: 55px;
+    line-height: 72px;
+}
+.projects-Realhome__link{
+    position: relative;
+    height: 550px;
+    border-radius: 30px;
+    background-image: url(img/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.projects__title{
+    position: absolute;
+    font-size: 35px;
+    line-height: 46px;
+    left: 50px;
+    bottom: 94px;
+}
+.projects__text{
+    position: absolute;
+    font-size: 30px;
+    line-height: 39px;
+    left: 50px;
+    bottom: 50px;
+}
+.projects-GLASS__link{
+    position: relative;
+    height: 550px;
+    border-radius: 30px;
+    background-image: url(img/Rectangle\ 7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.projects-Fesiyen__link{
+    position: relative;
+    height: 550px;
+    border-radius: 30px;
+    background-image: url(img/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+.projects__link{
+    display: block;
+    margin: 80px 0 0 0;
+    width: 582px;
+    height: 153px;
+    font-size: 30px;
+    line-height: 153px;
+    text-align: center;
+    border: 1px solid #1BFF07;
+    background: #1BFF07;
+    border-radius: 10px;
+    color: #000000;
+}
+.projects__link:hover{
+    color: #1BFF07;
+    background-color: #121212;
+    border: 1px solid #1BFF07;
+}
+.indent{
+    margin: 150px 0 150px 0;
+}
+.competenies-knowledge{
+    font-size: 55px;
+    line-height: 72px;
+}
+.competencies-HTML__title ,
+.competencies-JS__title,
+.competencies-library__title,
+.competencies-adaptive__title{
+    width: 651px;
+    font-size: 35px;
+    line-height: 46px;
+    color: #1BFF07;
+}
+.competencies-HTML__title::before{
+    content: '';
+    display: block;
+    margin-top: 48px;
+    margin-bottom: 12px;
+    width: 45px;
+    height: 44px;
+    background-image: url(img/ph_file-html-thin.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.competencies__text{
+    width: 778px;
+    font-size: 22px;
+    line-height: 29px;
+}
+.competencies-JS__title::before{
+    content: '';
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 12px;
+    width: 45px;
+    height: 44px;
+    background-image: url(img/ph_JS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.competencies-library__title::before{
+    content: '';
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 12px;
+    width: 45px;
+    height: 44px;
+    background-image: url(img/ph_1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.competencies-adaptive__title::before{
+    content: '';
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 12px;
+    width: 45px;
+    height: 44px;
+    background-image: url(img/ph_3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.skills__adout{
+    width: 414px;
+    height: 75px;
+    font-size: 35px;
+    line-height: 46px;
+    margin-bottom: 74px;
+}
+.skills__title{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    font-size: 55px;
+    line-height: 72px;
+    color: #1BFF07;
+}
+.skills__text{
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+    font-size: 22px;
+    line-height: 29px;
+}
+.skills-development{
+    position: relative;
+    height: 283px;
+    background: #191C19;
+    border-radius: 30px;
+}
+.skills-layout{
+    position: relative;
+    height: 283px;
+    background: #191C19;
+    border-radius: 30px;
+}
+.skills-interface{
+    position: relative;
+    height: 283px;
+    background: #191C19;
+    border-radius: 30px;
+}

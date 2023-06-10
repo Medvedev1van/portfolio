@@ -1,0 +1,15 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    background-color:#121212;
+    letter-spacing: -0.03em;
+}
+.container{
+    min-width: 1150px;
+    margin: 0;
+    padding: 0;
+    padding: 27px 125px 0 125px;
+    color: #FFFFFF;
+}
