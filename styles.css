@@ -14,7 +14,6 @@
 .logo{
     position: absolute;
     top: 27px;
-    left: 132px;
     width: 140px;
     height: 40px;
     border-radius: 100px;
@@ -53,7 +52,6 @@
     position: absolute;
     width: 430px;
     height: 103px;
-    left: 125px;
     top: 334px;
     font-size: 20px;
     line-height: 26px;
@@ -64,7 +62,6 @@
     width: 951px;
     height: 205px;
     bottom: 94px;
-    left: 119px;
     font-size: 80px;
     line-height: 70px;
     color: #1BFF07;
@@ -258,6 +255,9 @@
     font-size: 60px;
     line-height: 60px;
 }
+.footer__link:hover{
+    color: #1BFF07;
+}
 .footer__wrapper{
     position: relative;
     height: 717px;
@@ -265,7 +265,9 @@
     border-radius: 30px;
 }
 .footer__img{
-    
+   position: absolute;
+   border-radius: 30px;
+   left: 50%;
 }
 .footer__title{
     position: relative;
